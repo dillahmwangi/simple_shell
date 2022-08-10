@@ -43,3 +43,12 @@ Compilation
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
+interactive mode
+
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+
