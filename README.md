@@ -80,4 +80,10 @@ $
 
 
 Same error with your program hsh:
+$ echo "qwerty" | ./hsh
+./hsh: 1: qwerty: not found
+$ echo "qwerty" | ./././hsh
+./././hsh: 1: qwerty: not found
+$
+
 
