@@ -78,3 +78,6 @@ $ echo "qwerty" | /bin/../bin/sh
 /bin/../bin/sh: 1: qwerty: not found
 $
 
+
+Same error with your program hsh:
+
