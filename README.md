@@ -63,7 +63,9 @@ $ cat test_ls_2
 $
 $ cat test_ls_2 | ./hsh
 hsh main.c shell.c test_ls_2
-hsh main.c shell.c test_ls_2
-$
+hsh main.c shell
 
+Output
+
+exact same output as sh (/bin/sh) as well as the exact same error output.
 
